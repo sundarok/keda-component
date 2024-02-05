@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: keda-namespace
+  name: keda-namespace-component
   namespace: default
 spec:
   interval: 10m0s
@@ -11,7 +11,7 @@ spec:
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: keda-namespace
+  name: keda-namespace-component
   namespace: default
 spec:
   interval: 15m
