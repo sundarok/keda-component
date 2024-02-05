@@ -21,6 +21,6 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
-        name: keda-namespace
+        name: keda-namespace-component
       version: {{ .Values.namespace.version | quote }}
   values: {{ toYaml .Values.namespace | nindent 4 }}
