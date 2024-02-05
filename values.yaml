@@ -4,8 +4,8 @@
 keda:
   appName: keda
   version: 2.9.2
-  podName: pod-danville
-  departmentCode: 275
+  podName: "pod-danville"
+  departmentCode: "275"
 
   operator:
     replicaCount: 1
@@ -34,6 +34,6 @@ namespace:
   name: keda-system
   isCoreInfra: true
   departmentCode: "275"
-  maintainedBy: pod-danville
-  createdBy: pod-danville
-  tenantName: quadrant-shared
+  maintainedBy: "pod-danville"
+  createdBy: "pod-danville"
+  tenantName: "quadrant-shared"
