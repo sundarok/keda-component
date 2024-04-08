@@ -16,18 +16,18 @@ keda:
   resources:
     operator:
       limits:
-        cpu: 1
-        memory: 1000Mi
+        cpu: 2m
+        memory: 15Mi
       requests:
-        cpu: 50m
-        memory: 100Mi
+        cpu: 1m
+        memory: 15Mi
     metricServer:
       limits:
-        cpu: 1
-        memory: 1000Mi
+        cpu: 2m
+        memory: 15Mi
       requests:
-        cpu: 50m
-        memory: 100Mi
+        cpu: 1m
+        memory: 15Mi
 
 namespace:
   version: 0.1.0
